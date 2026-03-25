@@ -51,7 +51,7 @@ sudo useradd -m -e 2027-04-15 ravi
 grep ravi /etc/passwd
 ```
 
-**4️⃣ Verify Expiry Date **
+**4️⃣ Verify Expiry Date**
 ```bash
 sudo chage -l ravi
 ```
