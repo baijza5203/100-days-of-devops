@@ -130,11 +130,11 @@ This confirms non-interactive shell is working ✅
 
 ---
 
-  ** HOW the Solution Works**
+  **HOW the Solution Works**
 
-useradd → Creates a new user
--s → Defines the login shell
-/sbin/nologin → Prevents interactive login
+* useradd → Creates a new user
+* -s → Defines the login shell
+* /sbin/nologin → Prevents interactive login
 
 When login is attempted:
 
