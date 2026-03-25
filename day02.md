@@ -76,31 +76,31 @@ sudo chage -l ravi
 
 **How It Works**
 
-*useradd → Creates user
-*-m → Creates home directory
-*-e → Sets expiry date
+- useradd → Creates user
+- -m → Creates home directory
+- -e → Sets expiry date
 
 After expiry:
 
-*Account becomes inactive
-*User cannot log in
+- Account becomes inactive
+- User cannot log in
 
 ---
 
 **⚠️ Common Mistakes**
 
-*Forgetting -e flag
-*Wrong date format (YYYY-MM-DD)
-*Not using sudo
-*Not verifying with chage
+- Forgetting -e flag
+- Wrong date format (YYYY-MM-DD)
+- Not using sudo
+- Not verifying with chage
 
 ---
 
 **Final Status**
 
-*User ravi created ✅
-*Expiry set to 2027-04-15 ✅
-*Verified successfully ✅
-*Task completed 🎯
+- User ravi created ✅
+- Expiry set to 2027-04-15 ✅
+- Verified successfully ✅
+- Task completed 🎯
 
 ---
