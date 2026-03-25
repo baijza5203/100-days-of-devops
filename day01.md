@@ -113,6 +113,7 @@ Expected output:
 
 anita:x:...:/sbin/nologin
 
+---
 
   **▶️ HOW to Test the Configuration**
 
@@ -127,6 +128,8 @@ This account is currently not available.
 
 This confirms non-interactive shell is working ✅
 
+---
+
   ** HOW the Solution Works**
 
 useradd → Creates a new user
@@ -138,12 +141,16 @@ When login is attempted:
 System denies access
 Displays a message instead of opening a shell
 
+---
+
 🚫 **WHY Non-Interactive Shell is Important**
 
 Prevents direct login access
 Secures service accounts
 Reduces attack surface
 Enforces least privilege principle
+
+---
 
   **BEGINNER KEY TAKEAWAYS**
 
@@ -153,6 +160,7 @@ Service accounts are common in real systems
 Always verify user configuration
 Security starts with proper user management
 
+---
 
   **⚠️ COMMON MISTAKES TO AVOID**
 
@@ -162,6 +170,8 @@ Security starts with proper user management
 ❌ Not using sudo
 ❌ Not verifying the result
 
+---
+
 🎉 **FINAL STATUS**
 
 ✔ User anita created successfully
@@ -169,3 +179,5 @@ Security starts with proper user management
 ✔ Login access restricted
 ✔ Verified configuration
 ✔ Task completed as per requirements
+
+---
