@@ -145,7 +145,7 @@ Secures service accounts
 Reduces attack surface
 Enforces least privilege principle
 
-🧠** BEGINNER KEY TAKEAWAYS**
+  ** BEGINNER KEY TAKEAWAYS**
 
 Not all users should have login access
 /sbin/nologin is used to disable shell access
