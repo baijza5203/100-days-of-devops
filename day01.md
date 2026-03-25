@@ -141,7 +141,8 @@ This confirms non-interactive shell is working ✅
 When login is attempted:
 
 System denies access.
-Displays a message instead of opening a shell
+
+Displays a message instead of opening a shell.
 
 ---
 
