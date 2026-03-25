@@ -78,7 +78,9 @@ App Server 2
 
 ```bash
 ssh steve@stapp02
-🔹 Ensure sudo privileges
+```
+
+Ensure sudo privileges
 
 
  **WHY:**
@@ -91,22 +93,22 @@ User creation requires administrative permissions.
 
 ```bash
 ssh steve@stapp02
-
+```
 🔹 Step 2: Create the user with non-interactive shell
 
 ```bash
 sudo useradd -s /sbin/nologin anita
-
+```
 🔹 Alternative (if path differs)
 
 ```bash
 sudo useradd -s /usr/sbin/nologin anita
-
+```
 🔹 Step 3: Verify user creation
 
 ```bash
 grep anita /etc/passwd
-
+```
 Expected output:
 
 anita:x:...:/sbin/nologin
@@ -118,14 +120,14 @@ Try switching to the user:
 
 ```bash
 su - anita
-
+```
 Expected result:
 
 This account is currently not available.
 
 This confirms non-interactive shell is working ✅
 
-🧠** HOW the Solution Works**
+  ** HOW the Solution Works**
 
 useradd → Creates a new user
 -s → Defines the login shell
