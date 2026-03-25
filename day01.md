@@ -111,7 +111,9 @@ grep anita /etc/passwd
 ```
 Expected output:
 
+```bash
 anita:x:...:/sbin/nologin
+```
 
 ---
 
@@ -138,7 +140,7 @@ This confirms non-interactive shell is working ✅
 
 When login is attempted:
 
-System denies access
+System denies access.
 Displays a message instead of opening a shell
 
 ---
