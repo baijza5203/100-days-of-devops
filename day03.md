@@ -62,7 +62,7 @@ Change it to:
 PermitRootLogin no
 ```
 
-✔ Remove #
+✔ Remove #.
 ✔ Ensure no duplicate entries exist
 
 **4️⃣ Save and Exit**
