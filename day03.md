@@ -1,4 +1,4 @@
-🟢 **Day 03: Disable Direct Root SSH Login 🔐🚫**
+🟢 **Day 03: Secure Root SSH Access 🔐🚫**
 
 ---
 
