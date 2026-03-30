@@ -1,4 +1,4 @@
-🟢 **Day 07: Linux SSH Authentication **
+🟢 **Day 07: Linux SSH Authentication**
 
 ---
 
