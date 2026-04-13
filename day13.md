@@ -1,4 +1,4 @@
-🟢 **Day 13:  IPtables Installation And Configuration **
+🟢 **Day 13:  IPtables Installation And Configuration**
 
 ---
 
